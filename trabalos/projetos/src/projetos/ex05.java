@@ -17,11 +17,11 @@ public class ex05 {
 		System.out.println("Qual o valor do 3° lado do triangulo");
 		lad3=in.nextDouble();
 		
-		if(lad1 < lad2+lad3 || lad2< lad1+lad3 || lad3< lad1+lad2) {
-			System.out.println("Esse triangulo  existe");
+		if(lad1 > lad2+lad3 || lad2> lad1+lad3 || lad3> lad1+lad2) {
+			System.out.println("Esse Não triangulo existe");
 		}
 		else {
-			System.out.println("Esse triangulo NÃO existe");
+			System.out.println("Esse triangulo existe");
 		}
 		
 	}
